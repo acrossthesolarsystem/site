@@ -15,27 +15,27 @@ class Home extends Component<
 			<div class={style.home}>
 				<br />
 				<span class="line">
-					<span class={style.userhost}>yvonne@ngc</span>
+					<span class={style.userhost}>aga@ngc</span>
 					<span class={style.colon}>:</span>
-					<span class={style.path}>~/3qmk.xyz</span>$ git pull &gt; /dev/null
+					<span class={style.path}>~/website</span>$ git pull &gt; /dev/null
 				</span>
 				<br />
 				<span class="line">
-					<span class={style.userhost}>yvonne@ngc</span>
+					<span class={style.userhost}>aga@ngc</span>
 					<span class={style.colon}>:</span>
-					<span class={style.path}>~/3qmk.xyz</span>$ tsc
+					<span class={style.path}>~/website</span>$ tsc
 				</span>
 				<br />
 				<span class="line">
-					<span class={style.userhost}>yvonne@ngc</span>
+					<span class={style.userhost}>aga@ngc</span>
 					<span class={style.colon}>:</span>
-					<span class={style.path}>~/3qmk.xyz</span>$ node out/index.js
+					<span class={style.path}>~/website</span>$ node out/index.js
 				</span>
 				<Terminal
 					text={[
 						{
 							type: 'text',
-							text: "Hi, I'm Yvonne, a Lua, JavaScript and TypeScript Developer!",
+							text: "Hi, I'm aga, a Lua, JavaScript and TypeScript Developer!",
 						},
 						{
 							type: 'newline',
@@ -47,19 +47,19 @@ class Home extends Component<
 						{
 							type: 'link',
 							text: 'here',
-							url: 'https://github.com/discorc',
+							url: 'https://github.com/acrossthesolarsystem',
 						},
 						{ type: 'text', text: ', my twitch can be found ' },
 						{
 							type: 'link',
 							text: 'here',
-							url: 'https://www.twitch.tv/buckettcat',
+							url: 'https://www.twitch.tv/playquavergame',
 						},
 						{ type: 'text', text: ', and my twitter ' },
 						{
 							type: 'link',
 							text: 'here',
-							url: 'https://twitter.com/playosugame',
+							url: 'https://twitter.com/ihateosumania',
 						},
 						{ type: 'text', text: '.' },
 						{ type: 'newline' },
@@ -83,9 +83,9 @@ class Home extends Component<
 				/>
 				{this.state.showAfter ? (
 					<>
-						<span class={style.userhost}>yvonne@ngc</span>
+						<span class={style.userhost}>aga@ngc</span>
 						<span class={style.colon}>:</span>
-						<span class={style.path}>~/3qmk.xyz</span>$
+						<span class={style.path}>~/website</span>$
 						<Typewriter text=" " interval={50} cursorFlashes={Infinity} />
 					</>
 				) : (
