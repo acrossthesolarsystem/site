@@ -67,7 +67,7 @@ class Home extends Component<
 						{
 							type: 'link',
 							text: 'here',
-							url: 'https://github.com/ku-ts/site',
+							url: 'https://github.com/ilovehutao/site',
 						},
 						{ type: 'text', text: '.' },
 					]}
